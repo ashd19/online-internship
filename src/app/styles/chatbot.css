@@ -1,0 +1,19 @@
+/* Minimal chatbot styles to satisfy import */
+.chatbot-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 360px;
+  max-width: calc(100% - 48px);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.chatbot-header {
+  padding: 12px 16px;
+  background: linear-gradient(90deg, #ff6b35, #f7931e);
+  color: #fff;
+  font-weight: 600;
+}

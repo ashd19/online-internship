@@ -1,0 +1,14 @@
+/* Minimal cursor styles to satisfy import and provide sensible defaults */
+.custom-cursor {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  mix-blend-mode: normal;
+}
+
+/* hide default cursor when custom is active */
+html.custom-cursor-enabled,
+body.custom-cursor-enabled {
+  cursor: none;
+}
