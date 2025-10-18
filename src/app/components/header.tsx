@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           <Link href="/" className="flex items-center space-x-3">
             {/* Use plain img so the data-URI in public/logo.txt loads without Image optimizations */}
             <img
-              src="./logo.svg"
+              src={"./logo.svg"}
               alt="OnlyInternship logo"
               className="h-10 w-10 rounded-full object-cover"
               width={40}
@@ -27,25 +27,19 @@ const Header: React.FC = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a
-              href="#home"
-              className="text-slate-700 hover:text-yellow-600 transition-colors"
-            >
-              Home
-            </a>
-            <a
-              href="#features"
+              href="/features"
               className="text-slate-700 hover:text-yellow-600 transition-colors"
             >
               Features
             </a>
             <a
-              href="#pricing"
+              href="/pricing"
               className="text-slate-700 hover:text-yellow-600 transition-colors"
             >
               Pricing
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="text-slate-700 hover:text-yellow-600 transition-colors"
             >
               Contact
