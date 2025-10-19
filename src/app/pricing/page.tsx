@@ -205,7 +205,7 @@ const Pricing = () => {
               <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
                 Looking for enterprise solutions, bulk assessments, or custom
                 integrations? Our sales team is ready to create a tailored
-                package that fits your organization's needs.
+                package that fits your organization&apos;s needs.
               </p>
 
               {/* Features Grid */}

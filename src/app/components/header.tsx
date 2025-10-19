@@ -49,13 +49,13 @@ const Header: React.FC = () => {
           {/* CTA Buttons (desktop) */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="#student-login"
+              href="/student-login"
               className="inline-block px-4 py-2 rounded-lg border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white transition"
             >
               Student Login
             </a>
             <a
-              href="#admin-login"
+              href="/admin-login"
               className="inline-block px-4 py-2 rounded-lg bg-yellow-500 text-white shadow hover:brightness-95 transition"
             >
               Admin Login
