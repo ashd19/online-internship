@@ -65,6 +65,6 @@ export async function POST(req: Request) {
   }
 }
 
-// export function GET(req: Request) {
-
-// }
+export function GET(req: Request) {
+  return new Response("Hi");
+}
