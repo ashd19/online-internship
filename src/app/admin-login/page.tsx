@@ -5,18 +5,10 @@ import { FaArrowLeft, FaEnvelope, FaLock, FaUserShield } from "react-icons/fa";
 
 const AdminLoginPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br bg-white flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         {/* Header */}
         <div className="text-center space-y-4">
-          <Link
-            href="/"
-            className="inline-flex items-center text-slate-300 hover:text-yellow-400 transition-colors"
-          >
-            <FaArrowLeft className="mr-2" />
-            Back to Home
-          </Link>
-
           {/* Admin Badge Icon */}
           <div className="flex justify-center">
             <div className="w-20 h-20 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 text-white flex items-center justify-center shadow-2xl">
@@ -24,7 +16,7 @@ const AdminLoginPage: React.FC = () => {
             </div>
           </div>
 
-          <h2 className="text-4xl font-bold text-white">Admin Login</h2>
+          <h2 className="text-4xl font-bold text-black">Admin Login</h2>
           <p className="text-slate-400">
             Secure access for administrators only
           </p>
@@ -129,12 +121,12 @@ const AdminLoginPage: React.FC = () => {
         </div>
 
         {/* Security Notice */}
-        <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
+        <div className="bg-white border border-black text-black font-bold rounded-lg p-4">
           <h3 className="text-sm font-semibold text-yellow-400 mb-2 flex items-center">
             <FaLock className="mr-2" />
             Security Notice
           </h3>
-          <ul className="text-xs text-slate-300 space-y-1">
+          <ul className="text-xs  space-y-1">
             <li>• Admin access is monitored and logged</li>
             <li>• Use strong passwords and enable 2FA</li>
             <li>• Never share your credentials with anyone</li>

@@ -89,13 +89,6 @@ export default function StudentLoginPage() {
         <div className="max-w-md w-full space-y-8">
           {/* Header Section */}
           <header className="text-center space-y-4">
-            <Link
-              href="/"
-              className="inline-flex items-center text-slate-900 hover:text-yellow-600 transition-colors"
-            >
-              <FaArrowLeft className="mr-2" aria-hidden="true" />
-              <span>Back to Home</span>
-            </Link>
             <div className="flex justify-center">
               <div className="w-16 h-16 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-bold text-2xl flex items-center justify-center shadow">
                 OI

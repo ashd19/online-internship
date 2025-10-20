@@ -207,7 +207,6 @@ const Pricing = () => {
                 integrations? Our sales team is ready to create a tailored
                 package that fits your organization&apos;s needs.
               </p>
-
               {/* Features Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <div className="flex items-center justify-center space-x-2 text-slate-700">
