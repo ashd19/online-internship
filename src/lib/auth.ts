@@ -8,4 +8,5 @@ export const auth = betterAuth({
   database: prismaAdapter(prisma, {
     provider: "postgresql",
   }),
+  // emailandPassoword and other auth providers 
 });
