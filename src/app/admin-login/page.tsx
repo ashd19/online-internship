@@ -1,7 +1,6 @@
 "use client";
-import Link from "next/link";
 import React from "react";
-import { FaArrowLeft, FaEnvelope, FaLock, FaUserShield } from "react-icons/fa";
+import { FaEnvelope, FaLock, FaUserShield } from "react-icons/fa";
 
 const AdminLoginPage: React.FC = () => {
   return (

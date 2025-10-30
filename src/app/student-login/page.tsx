@@ -204,7 +204,7 @@ export default function StudentLoginPage() {
                 <div className="text-center space-y-3">
                   <button
                     type="button"
-                    onClick={handleResendOtp}
+                    // onClick={handleResendOtp}
                     disabled={submitting}
                     className="text-red-600 hover:text-red-700 text-sm font-medium transition-colors disabled:opacity-60"
                   >
@@ -241,4 +241,5 @@ export default function StudentLoginPage() {
       </div>
     </>
   );
+
 }

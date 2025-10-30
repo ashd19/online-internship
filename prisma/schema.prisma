@@ -20,6 +20,8 @@ model student {
   name      String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  emailVerified Boolean @default(false)
+  isAdmin Boolean @default(false)
 }
 
 model User {
